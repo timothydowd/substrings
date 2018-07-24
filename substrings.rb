@@ -6,8 +6,12 @@ dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","o
 
 def substrings(str, dictionary)
   dictionary.each do |word|
-    if word == str
-      
+    if word.include? str
+      puts word
+    end
+  end
+    
+
 end
 
 
