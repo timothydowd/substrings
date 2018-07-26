@@ -5,12 +5,13 @@
 dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
 
 def substrings(str, dictionary)
-  dictionary.each do |word|
-    if word.include? str
-      puts word
-    end
-  end
-    
+  #dictionary.each do |word|
+  #  if word.include? str
+  #    puts word
+  #  end
+  #end
+
+  str.scan(/../) {|a| puts a}
 
 end
 
